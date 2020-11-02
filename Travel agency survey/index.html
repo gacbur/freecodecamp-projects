@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New page project</title>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="title">Travel agency rating Survey</h1>
+        <p id="description">Rate your experiance with our travel agency!</p>
+        <form id="survey-form">
+            <div id="form-group">
+                <label id="name-label" for="name">Name</label>
+                <br>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div id="form-group">
+                <label id="email-label" for="email">Email</label>
+                <br>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email"
+                    required>
+            </div>
+            <div id="form-group">
+                <label id="number-label" for="number">Age</label>
+                <br>
+                <input type="number" name="number" id="number" min="0" max="150" class="form-control" placeholder="Age"
+                    required>
+            </div>
+            <div id="form-group">
+                <p>Was it your first trip with our travel agency?</p>
+                <select id="dropdown" name="first-trip" class="form-control" required>
+                    <option disabled selected value>Select</option>
+                    <option value>First trip</option>
+                    <option value>Second trip</option>
+                    <option value>3-5th trip</option>
+                    <option value>5-8th trip</option>
+                    <option value>Far more than that!</option>
+                </select>
+            </div>
+            <div id="form-group">
+                <p>Would you recommend our travel agency to a friend?</p>
+                <label><input type="radio" name="recommend" class="radio-input" value="Yes">Yes</label><br>
+                <label><input type="radio" name="recommend" class="radio-input" value="No">No</label><br>
+                <label><input type="radio" name="recommend" class="radio-input" value="Idk">I Don't know</label>
+            </div>
+            <div id="form-group">
+                <p>What do you like about us?</p>
+                <select id="like-about" name="likeaboutus" class="form-control">
+                    <option value="">Customer support</option>
+                    <option value="">Quality of service</option>
+                    <option value="">Speed of reserving a travel</option>
+                    <option value="">Travel pricing</option>
+                </select>
+            </div>
+            <div id="form-group">
+                <p>Which things can be improved?</p>
+                <label><input type="checkbox" name="improve" class="input-checkbox" value="service">Service</label><br>
+                <label><input type="checkbox" name="improve" class="input-checkbox"
+                        value="customer-pricing">Pricing</label><br>
+                <label><input type="checkbox" name="improve" class="input-checkbox" value="website">Website</label><br>
+                <label><input type="checkbox" name="improve" class="input-checkbox"
+                        value="our-offers">Offers</label><br>
+                <label><input type="checkbox" name="improve" class="input-checkbox"
+                        value="helpdesk">Helpdesk</label><br>
+                <label><input type="checkbox" name="improve" class="input-checkbox" value="trip-destinations">Trip
+                    destinations</label>
+            </div>
+            <div id="form-group">
+                <p>Any comments or suggestions?</p>
+                <textarea id="comments" class="input-textarea" name="comment"
+                    placeholder="Enter your comment here..."></textarea>
+            </div>
+            <div id="form-group">
+                <br>
+                <button type="submit" id="submit" class="submit-button">Submit</button>
+            </div>
+    </div>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>

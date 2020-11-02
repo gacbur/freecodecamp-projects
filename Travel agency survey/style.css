@@ -1,0 +1,56 @@
+
+body{
+  background-image: url("https://wallsdesk.com/wp-content/uploads/2017/01/Krakow-Wallpapers-HQ.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  font-family:"Lucida Sans Unicode", "Lucida Grande";
+}
+
+#container{
+  padding:35px;
+  max-width:550px;
+  min-height:1100px;
+  background-color:#91bee3;
+  background: rgba(30, 60, 80, 0.9);
+  border-radius:15px;
+  display:block;
+  margin: 50px auto;
+}
+
+#title{
+  font-size:34px;
+}
+
+.form-control{
+ width:200px;
+ min-width:200px;
+ height:21px; 
+ font-family:"Lucida Sans Unicode", "Lucida Grande";
+}
+
+.input-textarea{
+  min-height:140px;
+  min-width:90%;
+  font-family:"Lucida Sans Unicode", "Lucida Grande";
+}
+
+.submit-button{
+  cursor:pointer;
+  padding:10px 35px 10px 35px;
+  margin: 0 auto;
+  margin-left:40%;
+  background-color:#cce0ff;
+  font-family:"Lucida Sans Unicode", "Lucida Grande";
+  border:solid 3px white;
+}
+
+.submit-button:hover{
+  padding:10px 35px 10px 35px;
+  margin: 0 auto;
+  margin-left:40%;
+  background-color:#99c2ff;
+  font-family:"Lucida Sans Unicode", "Lucida Grande";
+}
+
