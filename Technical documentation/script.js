@@ -32,6 +32,8 @@ logsignBtns.forEach((logsignBtn) => {
     })
 })
 
+// modal
+
 const modal = document.querySelector('.modal');
 const modalOn = document.querySelector('.hero-btn');
 const modalOff = document.querySelector('.modal-off');
@@ -54,6 +56,8 @@ modalOff.addEventListener('click', () => {
 
     modal.classList.add('off');
 });
+
+// form
 
 const formLog = document.querySelector('.form-log');
 const formSign = document.querySelector('.form-sign');
